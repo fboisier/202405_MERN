@@ -1,0 +1,78 @@
+
+Vehiculo
+- MARCA
+- MODELO
+- COMBUSTIBLE
+- COLOR
+- POTENCIA
+- MOTOR
+- RUEDAS
+
+QUE HACE
+- Acelerar()
+- Frenar()
+- Pitar()
+- Encender(){
+    girar la llave a encendido.
+}
+- Apagar()
+
+
+Auto(Vehiculo) ---  la primera mayuscula y en singular. Camel case.
+// QUE TIENE Atributos
+- RUEDAS
+- PUERTAS
+- AIRBAGS
+
+// QUE HACE - Metodos (funciones)
+- Encender(){
+   super().encender()
+   presione un botón.
+}
+
+
+
+Moto(Vehiculo)
+- PATITA(estacionar)
+
+// QUE HACE - Metodos (funciones)
+- Encender(){
+   super().encender()
+    presionar la palanca con fuerza con el pie.
+}
+   
+
+
+Camion(Vehiculo)
+- TARA
+
+HACE
+- ACOPLAR()
+- DESACOPLAR()
+
+
+auto1_principal = Auto()
+auto1_principal.marca = "TOYOTA"
+
+auto1_ajeno = Auto()
+auto1_principal.marca = "SUZUKI"
+auto1_principal.encender()
+
+moto_principal = Moto()
+moto_principal.patita = true
+moto_principal.apagar()
+
+
+class PaginaExcel
+
+nombre_pestañas = []
+
+- generarExcel()
+{
+    this.nombre_ata
+}
+
+
+class PaginaX2DescargaExcel(PaginaExcel)
+
+nombre_pestañas = ['pagina1','pagina2']

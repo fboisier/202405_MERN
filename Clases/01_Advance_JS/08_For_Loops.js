@@ -57,8 +57,8 @@ console.log("----------------------");
 console.log("Using forEach loop:");
 
 const fruits2 = ["apple", "banana", "orange"];
-fruits2.forEach((item, idx) => {
-    console.log(item, idx);
+fruits2.forEach((item, idx, arr) => {
+    console.log(item, idx, arr);
 });
 
 console.log("----------------------");
