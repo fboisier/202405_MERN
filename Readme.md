@@ -139,6 +139,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 4: React Props State](https://drive.google.com/drive/folders/1Cy2Ap2sAafN_avtvXnrbI_G2-puVstex?usp=drive_link)
   - [Class 5: React Forms Context](https://drive.google.com/drive/folders/1J1bMt1-9xwcNkb4Dy0F3QznPYJm3nEVT?usp=drive_link)
   - [Class 6: React Fetch Axios](https://drive.google.com/drive/folders/1SABMci5iYBR8X8oQOKg4XPflsuga5xA7?usp=drive_link)
+  - [Class 7: React Router DOM](https://drive.google.com/drive/folders/1nDaLIixnczDnI_MU7x0pYxhYQyVMHf7h?usp=drive_link)
 
 
 - **Tutorials (Ricardo)**
