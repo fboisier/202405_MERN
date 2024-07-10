@@ -140,6 +140,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 5: React Forms Context](https://drive.google.com/drive/folders/1J1bMt1-9xwcNkb4Dy0F3QznPYJm3nEVT?usp=drive_link)
   - [Class 6: React Fetch Axios](https://drive.google.com/drive/folders/1SABMci5iYBR8X8oQOKg4XPflsuga5xA7?usp=drive_link)
   - [Class 7: React Router DOM](https://drive.google.com/drive/folders/1nDaLIixnczDnI_MU7x0pYxhYQyVMHf7h?usp=drive_link)
+  - [Class 8: Express](https://drive.google.com/drive/folders/1KQz-AeOLofkz9FIqDsgJ7G9fxuzwHga1?usp=drive_link) (*** [Proyecto POSTMAN](https://www.postman.com/fboisier/workspace/mern-mayo-2024/collection/9642833-7b8cad07-d9df-4657-b77b-f8cb62c4c5b7) ***)
 
 
 - **Tutorials (Ricardo)**
