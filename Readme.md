@@ -142,6 +142,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 7: React Router DOM](https://drive.google.com/drive/folders/1nDaLIixnczDnI_MU7x0pYxhYQyVMHf7h?usp=drive_link)
   - [Class 8: Express](https://drive.google.com/drive/folders/1KQz-AeOLofkz9FIqDsgJ7G9fxuzwHga1?usp=drive_link) (*** [Proyecto POSTMAN](https://www.postman.com/fboisier/workspace/mern-mayo-2024/collection/9642833-7b8cad07-d9df-4657-b77b-f8cb62c4c5b7) ***)
   - [Class 9: Mongo](https://drive.google.com/drive/folders/1Y4JTVJPir59fuDD1_6HK2dp2pWEEpju9?usp=drive_link)
+  - [Class 10: FullStack](https://drive.google.com/drive/folders/1-0vOrqap0nxzymfJ7go5ht39QnAtoccG?usp=drive_link)
 
 - **Tutorials (Ricardo)**
 
