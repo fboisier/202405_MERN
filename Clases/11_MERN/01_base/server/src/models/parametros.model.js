@@ -17,13 +17,13 @@ const ParametrosSchema = new Schema({
     valor: {
         type: String,
         required: [true, "¡el valor es obligatorio!"],
-        validate: {
-            validator: (valor) => {
-                const regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
-                return regex.test(valor);
-            },
-            message: props => `${props.value} no cumple el estandar minimo de dato. 1 letra 1 may 1 min 1 numero 8 largo.`,
-        },
+        // validate: {
+        //     validator: (valor) => {
+        //         const regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+        //         return regex.test(valor);
+        //     },
+        //     message: props => `${props.value} no cumple el estandar minimo de dato. 1 letra 1 may 1 min 1 numero 8 largo.`,
+        //},
     },
 }, { timestamps: true });
 

@@ -37,7 +37,10 @@ const crearParametro =  async (req, res) => {
 
 const actualizarParametro = async (req, res) => {
     try {
-        const parametroActualizado = await Parametros.findOneAndUpdate({llave: req.params.llave}, req.body, { new: true, runValidators: true });
+        const dataBody = {
+            valor: req.body.valor
+        }
+        const parametroActualizado = await Parametros.findOneAndUpdate({llave: req.params.llave}, dataBody, { new: true, runValidators: true });
         if (!parametroActualizado) {
             res.status(404).json({ message: "Parametro no encontrado" });
             return;

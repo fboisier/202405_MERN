@@ -6,7 +6,7 @@ const router = Router();
 // TODAS ESTAS RUTAS PARTEN DESDE 
 ///api/v1/parametros
 router.get("/", getParametros);
-router.post("/" , crearParametro)
+router.post("/", crearParametro)
 router.get("/:llave", getParametro)
 router.put("/:llave", actualizarParametro)
 router.delete("/:llave", eliminarParametro)
