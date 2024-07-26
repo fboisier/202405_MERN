@@ -2,7 +2,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'
-import CrearParametros from "./CrearParametros";
 
 const ListadoParametros = () => {
 

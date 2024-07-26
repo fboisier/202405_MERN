@@ -144,6 +144,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 9: Mongo](https://drive.google.com/drive/folders/1Y4JTVJPir59fuDD1_6HK2dp2pWEEpju9?usp=drive_link)
   - [Class 10: FullStack](https://drive.google.com/drive/folders/1-0vOrqap0nxzymfJ7go5ht39QnAtoccG?usp=drive_link)
   - [Class 11: FullStack Part 2](https://drive.google.com/drive/folders/1uh_LVUJRyeA0Dp0nv2CNB4OFSKg__HTq?usp=drive_link)
+  - [Class 12: Example Exam](https://drive.google.com/drive/folders/1RW6HMLAK4nsG9yjLlmzgGkzkTG8g5Q-L?usp=drive_link)
 
 - **Tutorials (Ricardo)**
 
