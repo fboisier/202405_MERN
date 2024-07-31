@@ -13,7 +13,7 @@ const GrupoProyectos = ({proyectos, setProyectos, tipo, nombre}) => {
                         key={proyecto._id}
                         id={proyecto._id}
                         titulo={proyecto.nombre}
-                        fecha={proyecto.createdAt}
+                        fecha={proyecto.fecha_vencimiento}
                         tipo={tipo}
                         proyectos={proyectos}
                         setProyectos={setProyectos}

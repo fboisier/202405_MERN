@@ -1,10 +1,11 @@
-import Loading from "../utils/Loading";
-import * as Yup from "yup";
-import { Formik, Form, Field, ErrorMessage } from 'formik';
 import axios from "axios";
+import { ErrorMessage, Field, Form, Formik } from 'formik';
 import { useNavigate } from "react-router-dom";
-import Swal from 'sweetalert2'
-import styles from "./FormularioProyecto.module.css"
+import Swal from 'sweetalert2';
+import * as Yup from "yup";
+import { extractErrors } from '../../utils/funciones.js';
+import Loading from "../utils/Loading";
+import styles from "./FormularioProyecto.module.css";
 
 const ProyectoValidacionSchema = Yup.object().shape({
     nombre: Yup.string()
@@ -16,7 +17,6 @@ const ProyectoValidacionSchema = Yup.object().shape({
         .min(new Date(), 'la fecha no puede ser el pasado.'),
 });
 
-
 const FormularioProyecto = () => {
 
     const navigate = useNavigate();
@@ -26,7 +26,7 @@ const FormularioProyecto = () => {
         fecha_vencimiento: new Date(),
     }
 
-    const handleSubmit = (values) => {
+    const handleSubmit = (values, { setErrors, setSubmitting }) => {
 
         const crearProyecto = async () => {
             try {
@@ -41,12 +41,14 @@ const FormularioProyecto = () => {
                 navigate('/');
             }
             catch (error) {
-                Swal.fire({
-                    title: "Ups un error",
-                    text: error.response.data.message,
-                    icon: "error"
-                });
+                const errors = error.response.data.errors;
+                console.log(errors);
+                if (error.response && error.response.data.errors) {
+                    const extractedErrors = extractErrors(error.response.data.errors);
+                    setErrors(extractedErrors);
+                }
             }
+            setSubmitting(false);
         }
         crearProyecto();
     }

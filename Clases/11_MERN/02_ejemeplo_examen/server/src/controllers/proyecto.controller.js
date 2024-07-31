@@ -2,7 +2,7 @@ import Proyecto from '../models/proyecto.model.js';
 
 const getProyectos = async (req, res) => {
     try {
-        const proyecto = await Proyecto.find();
+        const proyecto = await Proyecto.find().sort({ fecha_vencimiento: 1 });
         res.json(proyecto);
 
     } catch (error) {
