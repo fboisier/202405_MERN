@@ -78,9 +78,12 @@ const iniciarSesion = async (req, res) => {
         }
 
         // Generar el token de acceso
-        const token = jwt.sign({ id: usuario._id, usuario: usuario.usuario, email: usuario.email }, JWT_SECRET, { expiresIn: '1h' });
+        const payload = { id: usuario._id, usuario: usuario.usuario, email: usuario.email, nombre: usuario.nombre }
+        const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '1h' });
         res.cookie('authToken', token, { httpOnly: true, secure: true }).json({
-            msg: '¡Inicio de sesión exitoso, cookie configurada!', token
+            msg: '¡Inicio de sesión exitoso, cookie configurada!',
+            token,
+            usuario: payload
         });
 
     } catch (err) {
@@ -88,4 +91,8 @@ const iniciarSesion = async (req, res) => {
     }
 };
 
-export { registrar, iniciarSesion };
+const cerrarSesion = async (req, res) => {
+    res.clearCookie('authToken').json({ msg: '¡Cierre de sesión exitoso!' });
+};
+
+export { registrar, iniciarSesion, cerrarSesion };

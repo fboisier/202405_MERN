@@ -5,9 +5,12 @@ import './index.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import { ProveedorAuth } from './components/utils/useContextAuth.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ProveedorAuth>
+      <App />
+    </ProveedorAuth>
   </React.StrictMode>,
 )

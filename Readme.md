@@ -146,6 +146,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 11: FullStack Part 2](https://drive.google.com/drive/folders/1uh_LVUJRyeA0Dp0nv2CNB4OFSKg__HTq?usp=drive_link)
   - [Class 12: Example Exam](https://drive.google.com/drive/folders/1RW6HMLAK4nsG9yjLlmzgGkzkTG8g5Q-L?usp=drive_link)
   - [Class 13: MERN AUTH - Server](https://drive.google.com/drive/folders/1OSQKS8_VhYaG1QML7bV9scZI0ooUVofy?usp=drive_link)
+  - [Class 14: MERN AUTH - Client Part 1](https://drive.google.com/drive/folders/1vdOB8gaR2lSBs89wfLE43QEP3OO17qyx?usp=drive_link)
 
 - **Tutorials (Ricardo)**
 
