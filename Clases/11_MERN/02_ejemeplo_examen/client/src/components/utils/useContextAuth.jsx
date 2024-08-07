@@ -5,7 +5,7 @@ const ContextoAuth = createContext();
 
 // Proveedor del contexto
 const ProveedorAuth = ({ children }) => {
-    const [usuario, setUsuario] = useState(localStorage.getItem('usuario'));
+    const [usuario, setUsuario] = useState(JSON.parse(localStorage.getItem('usuario')) || null);
     const [estaLogeado, setEstaLogeado] = useState(!!usuario);
 
     const objectoContexto = {

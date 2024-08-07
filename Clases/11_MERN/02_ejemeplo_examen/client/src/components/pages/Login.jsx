@@ -32,7 +32,7 @@ const Login = () => {
                 const { data } = await axios.post('/api/v1/auth/login', values);
                 console.log(data);
                 setUsuario(data.usuario)
-                localStorage.setItem('usuario', data.usuario);
+                localStorage.setItem('usuario', JSON.stringify(data.usuario));
                 setEstaLogeado(true);
 
                 Swal.fire({
