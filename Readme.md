@@ -148,6 +148,7 @@ Regarding the course, the main communication channels will be Zoom and Discord a
   - [Class 13: MERN AUTH - Server](https://drive.google.com/drive/folders/1OSQKS8_VhYaG1QML7bV9scZI0ooUVofy?usp=drive_link)
   - [Class 14: MERN AUTH - Client](https://drive.google.com/drive/folders/1vdOB8gaR2lSBs89wfLE43QEP3OO17qyx?usp=drive_link)
   - [Class 15: MERN Deploy](https://drive.google.com/drive/folders/1xZxTwL-4h2JOCLdKy7VKC_vr1dkEeu-M?usp=drive_link)
+  - [Class 15: MERN Deploy part 2 - SOCKET.IO](https://drive.google.com/drive/folders/11BncAkTJ7UHAatnsK-dJueQDwWZ3vSVP?usp=drive_link)
 
 - **Tutorials (Ricardo)**
 
